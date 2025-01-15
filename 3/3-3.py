@@ -1,7 +1,23 @@
+import random
+ball = 20
+superduped = 5
 while True:
-    q = int(input())
-    w = int(input())
-    e = int(input())
-    r = (q+w+e)/3
-    if r >= 70 or e >= 85 or w >= 85 or q >= 85:
-        print("presentjdhjfwbiyfbewfiybvewongfroy gf98jeacwhyufcxa cw")
+    num = int(input("AAAAAAA  "))
+    if num >= 1:
+        print("wow")
+        print(superduped, "/", ball)
+        numnum = random.randint(1, ball)
+        if ball == 0 or superduped == 0:
+            print("ball ran out!")
+            break
+        elif numnum <= superduped:
+            print("you got the thingy!")
+            superduped -= 1
+            ball -= 1
+        elif numnum > superduped:
+            print("you failed to get the thingy!")
+            ball -= 1
+        
+        
+
+
