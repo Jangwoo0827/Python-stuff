@@ -1,23 +1,19 @@
-import random
-ball = 20
-superduped = 5
-while True:
-    num = int(input("AAAAAAA  "))
-    if num >= 1:
-        print("wow")
-        print(superduped, "/", ball)
-        numnum = random.randint(1, ball)
-        if ball == 0 or superduped == 0:
+import random, time
+ball = 100000000
+superduper = 1
+while True: 
+    dd = float(superduper/ball)*100
+    if True:
+        print(superduper, "/", ball)
+        print(dd, "%")
+        if ball == 0 or superduper == 0:
             print("ball ran out!")
             break
-        elif numnum <= superduped:
-            print("you got the thingy!")
-            superduped -= 1
+        numnum = random.randint(1, ball)
+        if numnum <= superduper:
+            print("Success")
+            superduper -= 1
             ball -= 1
-        elif numnum > superduped:
-            print("you failed to get the thingy!")
-            ball -= 1
-        
-        
-
-
+        elif numnum > superduper:
+            print("Failed")
+            ball -= 10
