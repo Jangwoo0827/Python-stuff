@@ -1,4 +1,4 @@
 aa = ""
-for i in range(a):
+for i in range(3):
     aa += "*"
 print(aa)
